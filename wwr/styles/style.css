@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
 #background {
     height: 725px;
     background-color: #78C5D7;
@@ -5,12 +7,20 @@
 
 body {
     background-color: seashell;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 .book, .join {
     background-color: #FCE172;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -22,6 +32,10 @@ body {
     text-align: center;
 }
 
+.card-img {
+    border: 10px solid #78C5D7
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -29,7 +43,10 @@ body {
 
 footer {
     background-color: #134266;
-    color: #78C5D7;    
+    color: #78C5D7;
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -49,12 +66,26 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
 h4 {
     color: black;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+}
+
 header {
     background-color: #134266;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 #hero-img {
@@ -67,39 +98,61 @@ header {
 
 .home-title {
     color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .msg {
     background-color: #134266;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: white;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 nav a {
     text-align: center;
     color: #FCE172;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #78C5D7;
     color: white;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
