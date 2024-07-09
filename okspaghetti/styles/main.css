@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap');
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+#about-website-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5px
+}
+
+#about-website-image {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+#body-text {
+    align-self: center;
+    padding-right: 200px;
+}
+
+#big-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    width: 60%;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color:#F30303;
+    text-align: center
+}
+
+p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color:#003D23;
+}
+
+footer {
+    background-color: #FFFF00;
+    color: #F30303;
+    font-family: 'Roboto', sans-serif;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    color: #F30303;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: #F30303;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+header {
+    background-color: #FFFF00;
+    font-family: 'Bebas Neue', sans-serif;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+#location-and-contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#location-and-contact-text {
+    align-self: center;
+    padding-left: 265px;
+    padding-right: 47px;
+}
+
+#location-and-contact-image img{
+    max-width: 69%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: #F30303;
+    text-decoration: none;
+    padding: 35px;
+    padding-top: 47px;
+    font-family: "Kdam Thmor Pro"
+}
+
+nav a:hover {
+    background-color: #003D23;
+    color: #F30303;
+}
+
+.logo {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .logo {
+        margin-top: 25px;
+    }
+    #about-website-grid, #location-and-contact-grid {
+        display: block;
+    }
+    #about-website-image img, #location-and-contact-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70%;
+    }
+    #about-website-image img {
+        padding-left: 39px;
+    }
+    #body-text, #location-and-contact-text {
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-self: center;
+    }
+}
