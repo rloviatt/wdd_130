@@ -151,3 +151,69 @@ nav a:hover {
         align-self: center;
     }
 }
+
+/* css for menu.html */
+
+#entree-hero, #soups-title-and-image, #kids-title-and-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#entree-hero-box, #soups-box {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    z-index: 0;
+}
+
+#entree-hero-msg, #soups-msg, #kids-msg {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    z-index: 1;
+}
+
+#entree-hero-img, #soups-image {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.main-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main-menu-grid p{
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+#entree-1, #entree-2, #entree-3, #entree-4, #entree-5, #entree-6, #soup-1, #soup-2, #soup-3, #kids-1, #kids-2, #kids-3 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#kids-menu-hero {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#kids-box {
+    max-width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    z-index: 0;
+}
+
+#kids-image {
+    max-width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#kids-msg h2 {
+    color: white;
+}
