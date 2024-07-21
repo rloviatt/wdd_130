@@ -217,3 +217,35 @@ nav a:hover {
 #kids-msg h2 {
     color: white;
 }
+
+/* CSS for our-story.html */
+
+#main-our-story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#denmark-image {
+    max-width: 100%;
+}
+
+#grandma-image {
+    max-width: 100%;
+}
+
+#grandma-story-text, #grandma-story-image {
+    padding-bottom: 20px
+}
+
+#grandma-story-image, #owner-story-text {
+    padding-right: 10px;
+}
+
+#grandma-story-text, #owner-story-image {
+    padding-left: 10px;
+}
+
+#closing-message p{
+    text-align: center;
+}
